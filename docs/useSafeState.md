@@ -6,7 +6,7 @@ Like `useState` but silently ignores any state updates that happen after the com
 
 ```jsx
 import { Text } from 'react-native';
-import { useSafeState, useAsyncEffect } from 'react-native-use';
+import { useSafeState, useAsyncEffect } from 'rn-hooksy';
 
 const Demo = () => {
   const [data, setData] = useSafeState(null);

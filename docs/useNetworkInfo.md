@@ -8,7 +8,7 @@ React Native hook that tracks the device's network connectivity status in real t
 
 ```jsx
 import { Text, View } from 'react-native';
-import { useNetworkInfo } from 'react-native-use';
+import { useNetworkInfo } from 'rn-hooksy';
 
 const Demo = () => {
   const { isConnected, isInternetReachable, type } = useNetworkInfo();

@@ -11,7 +11,7 @@ React Native hook that returns the safe area insets for the current device — a
 ```jsx
 import { Text, View } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import { useSafeAreaInsets } from 'react-native-use';
+import { useSafeAreaInsets } from 'rn-hooksy';
 
 const Screen = () => {
   const insets = useSafeAreaInsets();

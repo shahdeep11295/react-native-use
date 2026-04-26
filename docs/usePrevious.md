@@ -7,7 +7,7 @@ React state hook that returns the previous state as described in the [React hook
 ```jsx
 import React from 'react';
 import { Button, Text, View } from 'react-native';
-import { usePrevious } from 'react-native-use';
+import { usePrevious } from 'rn-hooksy';
 
 const Demo = () => {
   const [count, setCount] = React.useState(0);

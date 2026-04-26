@@ -7,7 +7,7 @@ which receives the same arguments and returns the same result as the original fu
 
 ```jsx
 import { Text } from 'react-native';
-import { createMemo } from 'react-native-use';
+import { createMemo } from 'rn-hooksy';
 
 const fibonacci = (n) => {
   if (n === 0) return 0;

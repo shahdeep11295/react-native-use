@@ -11,7 +11,7 @@ Returns a function that returns `true` if component is mounted and `false` other
 ```jsx
 import React from 'react';
 import { Text } from 'react-native';
-import { useMountedState } from 'react-native-use';
+import { useMountedState } from 'rn-hooksy';
 
 const Demo = () => {
   const isMounted = useMountedState();

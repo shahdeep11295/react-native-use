@@ -6,7 +6,7 @@ React Native hook that fetches the dimensions of an image from a local resource 
 
 ```jsx
 import { Image, Text, View } from 'react-native';
-import { useImageDimensions } from 'react-native-use';
+import { useImageDimensions } from 'rn-hooksy';
 
 const Demo = () => {
   const { dimensions, loading, error } = useImageDimensions({

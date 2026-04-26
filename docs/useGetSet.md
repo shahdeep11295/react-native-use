@@ -10,7 +10,7 @@ Below example uses `useGetSet` to increment a number after 1 second
 on each click.
 
 ```jsx
-import { useGetSet } from 'react-native-use';
+import { useGetSet } from 'rn-hooksy';
 import { Button, Text, View } from 'react-native';
 
 const Demo = () => {

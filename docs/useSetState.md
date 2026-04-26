@@ -8,7 +8,7 @@ current state.
 
 ```jsx
 import { Button, Text, View } from 'react-native';
-import { useSetState } from 'react-native-use';
+import { useSetState } from 'rn-hooksy';
 
 const Demo = () => {
   const [state, setState] = useSetState({});

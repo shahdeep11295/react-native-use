@@ -6,7 +6,7 @@ React Native hook that returns whether the device is currently in portrait or la
 
 ```jsx
 import { Text } from 'react-native';
-import { useDeviceOrientation } from 'react-native-use';
+import { useDeviceOrientation } from 'rn-hooksy';
 
 const Demo = () => {
   const orientation = useDeviceOrientation();

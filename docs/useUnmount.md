@@ -6,7 +6,7 @@ React lifecycle hook that calls a function when the component will unmount.
 
 ```jsx
 import { Alert } from 'react-native';
-import { useUnmount } from 'react-native-use';
+import { useUnmount } from 'rn-hooksy';
 
 const Demo = () => {
   useUnmount(() => {

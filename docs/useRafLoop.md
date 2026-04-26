@@ -8,7 +8,7 @@ The loop stops automatically on component unmount.
 ```jsx
 import React from 'react';
 import { Button, Text, View } from 'react-native';
-import { useRafLoop, useUpdate } from 'react-native-use';
+import { useRafLoop, useUpdate } from 'rn-hooksy';
 
 const Demo = () => {
   const [ticks, setTicks] = React.useState(0);

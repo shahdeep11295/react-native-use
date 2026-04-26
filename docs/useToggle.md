@@ -6,7 +6,7 @@ React state hook that tracks value of a boolean.
 
 ```jsx
 import { Button, Text, View } from 'react-native';
-import { useToggle } from 'react-native-use';
+import { useToggle } from 'rn-hooksy';
 
 const Demo = () => {
   const [on, toggle] = useToggle(true);

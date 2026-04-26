@@ -9,7 +9,7 @@ React Native hook that checks and requests a single device permission (camera, l
 ```jsx
 import { Button, Text, View } from 'react-native';
 import { PERMISSIONS } from 'react-native-permissions';
-import { usePermission } from 'react-native-use';
+import { usePermission } from 'rn-hooksy';
 
 const Demo = () => {
   const [state, actions] = usePermission(PERMISSIONS.IOS.CAMERA);

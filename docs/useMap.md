@@ -6,7 +6,7 @@ React state hook that tracks a `Map` object with helper actions.
 
 ```jsx
 import { Button, Text, View } from 'react-native';
-import { useMap } from 'react-native-use';
+import { useMap } from 'rn-hooksy';
 
 const Demo = () => {
   const [map, actions] = useMap(new Map([['hello', 'there']]));

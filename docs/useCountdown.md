@@ -6,7 +6,7 @@ Counts down from a given number of seconds to zero. Provides `start`, `pause`, a
 
 ```jsx
 import { Button, Text, View } from 'react-native';
-import { useCountdown } from 'react-native-use';
+import { useCountdown } from 'rn-hooksy';
 
 const Demo = () => {
   const [count, { start, pause, reset, isRunning }] = useCountdown(60, {

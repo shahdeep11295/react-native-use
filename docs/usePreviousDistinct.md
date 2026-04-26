@@ -7,7 +7,7 @@ Just like `usePrevious` but it will only update once the value actually changes.
 ```jsx
 import React from 'react';
 import { Button, Text, View } from 'react-native';
-import { usePreviousDistinct } from 'react-native-use';
+import { usePreviousDistinct } from 'rn-hooksy';
 
 const Demo = () => {
   const [count, setCount] = React.useState(0);
@@ -28,7 +28,7 @@ You can also provide a way of identifying the value as unique. By default, a str
 
 ```jsx
 import React from 'react';
-import { usePreviousDistinct } from 'react-native-use';
+import { usePreviousDistinct } from 'rn-hooksy';
 
 const Demo = () => {
   const [str, setStr] = React.useState('something_lowercase');

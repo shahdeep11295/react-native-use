@@ -6,7 +6,7 @@ React Native hook that tracks the system color scheme (light/dark mode). Re-rend
 
 ```jsx
 import { Text, View } from 'react-native';
-import { useColorScheme } from 'react-native-use';
+import { useColorScheme } from 'rn-hooksy';
 
 const Demo = () => {
   const colorScheme = useColorScheme();

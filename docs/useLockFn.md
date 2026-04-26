@@ -6,7 +6,7 @@ Wraps an async function so that concurrent calls are ignored while the previous 
 
 ```jsx
 import { Button, Text, View } from 'react-native';
-import { useLockFn } from 'react-native-use';
+import { useLockFn } from 'rn-hooksy';
 
 const Demo = () => {
   const handleSubmit = useLockFn(async () => {

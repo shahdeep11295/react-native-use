@@ -5,7 +5,7 @@ React lifecycle hook that runs an effect only once.
 ## Usage
 
 ```jsx
-import { useEffectOnce } from 'react-native-use';
+import { useEffectOnce } from 'rn-hooksy';
 
 const Demo = () => {
   useEffectOnce(() => {

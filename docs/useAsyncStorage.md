@@ -8,7 +8,7 @@ React Native hook that persists state to `AsyncStorage`. Automatically loads the
 
 ```jsx
 import { Button, Text, TextInput, View } from 'react-native';
-import { useAsyncStorage } from 'react-native-use';
+import { useAsyncStorage } from 'rn-hooksy';
 
 const Demo = () => {
   const [state, { setValue, removeValue }] = useAsyncStorage('username', '');

@@ -7,7 +7,7 @@ React state hook that returns the default value when state is null or undefined.
 ```jsx
 import React from 'react';
 import { Button, Text, TextInput, View } from 'react-native';
-import { useDefault } from 'react-native-use';
+import { useDefault } from 'rn-hooksy';
 
 const Demo = () => {
   const initialUser = { name: 'Marshall' };

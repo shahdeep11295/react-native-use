@@ -7,7 +7,7 @@ React state hook that tracks state history and allows moving backward and forwar
 ```jsx
 import React from 'react';
 import { Button, Text, View } from 'react-native';
-import { useStateHistory } from 'react-native-use';
+import { useStateHistory } from 'rn-hooksy';
 
 const Demo = () => {
   const [value, setValue, history] = useStateHistory(0, 10);

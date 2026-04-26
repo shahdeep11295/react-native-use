@@ -7,7 +7,7 @@ and reset back to the initial object state.
 
 ```jsx
 import { Button, Text, View } from 'react-native';
-import { useCombinedState } from 'react-native-use';
+import { useCombinedState } from 'rn-hooksy';
 
 const initialState = {
   name: '',

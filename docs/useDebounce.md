@@ -7,7 +7,7 @@ React hook that delays invoking a function until after `wait` milliseconds have 
 ```jsx
 import React from 'react';
 import { Button, Text, TextInput, View } from 'react-native';
-import { useDebounce } from 'react-native-use';
+import { useDebounce } from 'rn-hooksy';
 
 const Demo = () => {
   const [state, setState] = React.useState('Typing stopped');

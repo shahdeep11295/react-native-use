@@ -9,7 +9,7 @@ This allows you to have a shared state that any component can update easily.
 An example with shared text between two input fields.
 
 ```jsx
-import { createStateContext } from 'react-native-use';
+import { createStateContext } from 'rn-hooksy';
 import { Button, Text, TextInput, View } from 'react-native';
 
 const [useSharedText, SharedTextProvider] = createStateContext('');

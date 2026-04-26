@@ -7,7 +7,7 @@ Like `useState`, but with a mediation process.
 ```jsx
 import React from 'react';
 import { Text, TextInput, View } from 'react-native';
-import { useMediatedState } from 'react-native-use';
+import { useMediatedState } from 'rn-hooksy';
 
 const inputMediator = (value) => value.replace(/[\s]+/g, ' ');
 

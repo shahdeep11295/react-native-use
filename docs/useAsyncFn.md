@@ -6,7 +6,7 @@ React hook that returns state and a callback for an `async` function or a functi
 
 ```jsx
 import { Button, Text, View } from 'react-native';
-import { useAsyncFn } from 'react-native-use';
+import { useAsyncFn } from 'rn-hooksy';
 
 const Demo = ({ url }) => {
   const [state, doFetch] = useAsyncFn(async () => {

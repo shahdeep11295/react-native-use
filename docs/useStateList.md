@@ -8,7 +8,7 @@ Supports forward and backward iterations and arbitrary position set.
 ```jsx
 import React from 'react';
 import { Button, Text, TextInput, View } from 'react-native';
-import { useStateList } from 'react-native-use';
+import { useStateList } from 'rn-hooksy';
 
 const stateSet = ['first', 'second', 'third', 'fourth', 'fifth'];
 

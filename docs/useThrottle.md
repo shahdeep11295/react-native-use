@@ -7,7 +7,7 @@ React hook that throttles rapidly changing values.
 ```jsx
 import React from 'react';
 import { Text, TextInput, View } from 'react-native';
-import { useThrottle } from 'react-native-use';
+import { useThrottle } from 'rn-hooksy';
 
 const Demo = () => {
   const [value, setValue] = React.useState('');

@@ -10,7 +10,7 @@ An example with two counters that share the same value.
 
 ```jsx
 import { Button, Text, View } from 'react-native';
-import { createReducerContext } from 'react-native-use';
+import { createReducerContext } from 'rn-hooksy';
 
 const reducer = (state, action) => {
   switch (action) {

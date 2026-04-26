@@ -8,7 +8,7 @@ React Native hook that reads from and writes to the device clipboard.
 
 ```jsx
 import { Button, Text, View } from 'react-native';
-import { useClipboard } from 'react-native-use';
+import { useClipboard } from 'rn-hooksy';
 
 const Demo = () => {
   const [text, { setText, clear }] = useClipboard();

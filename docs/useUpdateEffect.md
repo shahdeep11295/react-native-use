@@ -7,7 +7,7 @@ React effect hook that ignores the first invocation (e.g. on mount). The signatu
 ```jsx
 import React from 'react';
 import { Text } from 'react-native';
-import { useUpdateEffect } from 'react-native-use';
+import { useUpdateEffect } from 'rn-hooksy';
 
 const Demo = () => {
   const [count, setCount] = React.useState(0);

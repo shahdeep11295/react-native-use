@@ -7,7 +7,7 @@ React hook that invokes a function and then delays subsequent function calls unt
 ```jsx
 import React from 'react';
 import { Text, TextInput, View } from 'react-native';
-import { useThrottleFn } from 'react-native-use';
+import { useThrottleFn } from 'rn-hooksy';
 
 const Demo = () => {
   const [status, setStatus] = React.useState('Updating stopped');

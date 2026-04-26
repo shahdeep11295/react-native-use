@@ -6,7 +6,7 @@ Tracks component render count including the first render.
 
 ```jsx
 import { Button, Text, View } from 'react-native';
-import { useRendersCount, useUpdate } from 'react-native-use';
+import { useRendersCount, useUpdate } from 'rn-hooksy';
 
 const Demo = () => {
   const update = useUpdate();

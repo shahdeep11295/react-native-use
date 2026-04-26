@@ -7,7 +7,7 @@ Factory for reducer hooks with custom middleware with an identical API as [React
 ```jsx
 import React from 'react';
 import { Button, Text, View } from 'react-native';
-import { createReducer } from 'react-native-use';
+import { createReducer } from 'rn-hooksy';
 
 const thunk = (store) => (next) => (action) => {
   if (typeof action === 'function') {
@@ -72,7 +72,7 @@ const Demo = ({ initialCount = 1 }) => {
 ```jsx
 import React from 'react';
 import { Button, Text, View } from 'react-native';
-import { createReducer } from 'react-native-use';
+import { createReducer } from 'rn-hooksy';
 import logger from 'redux-logger';
 import thunk from 'redux-thunk';
 

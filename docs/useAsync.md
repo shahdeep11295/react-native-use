@@ -7,7 +7,7 @@ React hook that resolves an `async` function or a function that returns a promis
 ```jsx
 import React from 'react';
 import { Text, View } from 'react-native';
-import { useAsync } from 'react-native-use';
+import { useAsync } from 'rn-hooksy';
 
 const Demo = ({ url }) => {
   const state = useAsync(async () => {

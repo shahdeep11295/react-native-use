@@ -7,7 +7,7 @@ A modified `useEffect` hook that uses deep equality to compare dependencies inst
 ```jsx
 import React from 'react';
 import { Text, View } from 'react-native';
-import { useDeepCompareEffect } from 'react-native-use';
+import { useDeepCompareEffect } from 'rn-hooksy';
 
 const Demo = () => {
   const [result, setResult] = React.useState(0);

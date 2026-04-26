@@ -6,7 +6,7 @@ React state hook that tracks a boolean value with explicit named actions.
 
 ```jsx
 import { Button, Text, View } from 'react-native';
-import { useBoolean } from 'react-native-use';
+import { useBoolean } from 'rn-hooksy';
 
 const Demo = () => {
   const [isVisible, { setTrue: show, setFalse: hide, toggle }] =

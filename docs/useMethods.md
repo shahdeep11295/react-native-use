@@ -6,7 +6,7 @@ React hook that simplifies the `useReducer` implementation.
 
 ```jsx
 import { Button, Text, View } from 'react-native';
-import { useMethods } from 'react-native-use';
+import { useMethods } from 'rn-hooksy';
 
 const initialState = {
   count: 0,

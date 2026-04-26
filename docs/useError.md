@@ -6,7 +6,7 @@ React side-effect hook that returns an error dispatcher.
 
 ```jsx
 import { Button } from 'react-native';
-import { useError } from 'react-native-use';
+import { useError } from 'rn-hooksy';
 
 const Demo = () => {
   const dispatchError = useError();

@@ -6,7 +6,7 @@ React state hook that implements a simple FIFO queue.
 
 ```jsx
 import { Button, Text, View } from 'react-native';
-import { useQueue } from 'react-native-use';
+import { useQueue } from 'rn-hooksy';
 
 const Demo = () => {
   const { add, remove, first, last, size } = useQueue();

@@ -7,7 +7,7 @@ A debug hook that logs which props or state values caused a component to re-rend
 ```jsx
 import React from 'react';
 import { Text, View } from 'react-native';
-import { useWhyDidYouUpdate } from 'react-native-use';
+import { useWhyDidYouUpdate } from 'rn-hooksy';
 
 const MyComponent = (props) => {
   useWhyDidYouUpdate('MyComponent', props);

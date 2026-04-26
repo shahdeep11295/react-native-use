@@ -7,7 +7,7 @@ Each time given state changes, validator function is invoked.
 ```jsx
 import React from 'react';
 import { Text, TextInput, View } from 'react-native';
-import { useStateValidator } from 'react-native-use';
+import { useStateValidator } from 'rn-hooksy';
 
 const evenValidator = (s) => [s === '' ? undefined : Number(s) % 2 === 0];
 

@@ -6,7 +6,7 @@ An accurate stopwatch that tracks elapsed time with `start`, `stop`, and `reset`
 
 ```jsx
 import { Button, Text, View } from 'react-native';
-import { useStopwatch } from 'react-native-use';
+import { useStopwatch } from 'rn-hooksy';
 
 const Demo = () => {
   const { hours, minutes, seconds, isRunning, start, stop, reset } =

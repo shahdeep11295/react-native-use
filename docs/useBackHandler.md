@@ -6,7 +6,7 @@ React Native hook that handles Android hardware back button presses.
 
 ```jsx
 import { Text } from 'react-native';
-import { useBackHandler } from 'react-native-use';
+import { useBackHandler } from 'rn-hooksy';
 
 const Demo = () => {
   useBackHandler(() => {

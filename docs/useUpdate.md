@@ -7,7 +7,7 @@ to re-render when called.
 
 ```jsx
 import { Button, Text, View } from 'react-native';
-import { useUpdate } from 'react-native-use';
+import { useUpdate } from 'rn-hooksy';
 
 const Demo = () => {
   const update = useUpdate();

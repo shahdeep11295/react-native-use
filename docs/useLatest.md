@@ -9,7 +9,7 @@ This is mostly useful to get access to the latest value of some props or state i
 ```jsx
 import React from 'react';
 import { Alert, Button, Text, View } from 'react-native';
-import { useLatest } from 'react-native-use';
+import { useLatest } from 'rn-hooksy';
 
 const Demo = () => {
   const [count, setCount] = React.useState(0);

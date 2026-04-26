@@ -7,7 +7,7 @@ Provides handlers to cancel and/or reset the timeout.
 
 ```jsx
 import { Button, Text, View } from 'react-native';
-import { useTimeout } from 'react-native-use';
+import { useTimeout } from 'rn-hooksy';
 
 const TestComponent = ({ ms = 5000 }) => {
   const [isReady, cancel] = useTimeout(ms);

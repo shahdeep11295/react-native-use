@@ -1,22 +1,57 @@
-# react-native-use
+# rn-hooksy
 
 A lightweight, comprehensive collection of reusable React hooks for React Native — designed to handle common functionality, eliminate boilerplate, and boost developer productivity across iOS, Android, Windows, Web, and visionOS.
 
-Whether you need async state management, timers, debouncing, history tracking, global state, or lifecycle utilities — `react-native-use` has you covered with battle-tested, well-typed hooks that work seamlessly in any React Native project.
+Whether you need async state management, timers, debouncing, history tracking, global state, or lifecycle utilities — `rn-hooksy` has you covered with battle-tested, well-typed hooks that work seamlessly in any React Native project.
 
 ---
 
 ## Installation
 
 ```sh
-npm install react-native-use
+npm install rn-hooksy
 ```
 
 or with Yarn:
 
 ```sh
-yarn add react-native-use
+yarn add rn-hooksy
 ```
+
+### Peer Dependencies
+
+To use all features of this library, you'll need to install the following peer dependencies:
+
+```sh
+npm install @react-native-clipboard/clipboard @react-native-community/netinfo
+```
+
+or with Yarn:
+
+```sh
+yarn add @react-native-clipboard/clipboard @react-native-community/netinfo
+```
+
+### Platform-Specific Setup
+
+#### iOS
+
+After installing the dependencies, navigate to the `ios` folder and install CocoaPods dependencies:
+
+```sh
+cd ios && pod install && cd ..
+```
+
+#### Android
+
+For Android, the native dependencies will be auto-linked. If you're using React Native < 0.60, you may need to manually link the packages:
+
+```sh
+npx react-native link @react-native-clipboard/clipboard
+npx react-native link @react-native-community/netinfo
+```
+
+For React Native 0.60+, no additional steps are required for Android — the dependencies will be linked automatically.
 
 ---
 
@@ -45,7 +80,7 @@ import {
   useDebounce,
   useInterval,
   createGlobalState,
-} from 'react-native-use';
+} from 'rn-hooksy';
 
 // Toggle between true/false
 const [isVisible, toggle] = useToggle(false);

@@ -7,7 +7,7 @@ Each time any of given states changes, validator function is invoked.
 ```jsx
 import React from 'react';
 import { Text, TextInput, View } from 'react-native';
-import { useMultiStateValidator } from 'react-native-use';
+import { useMultiStateValidator } from 'rn-hooksy';
 
 const allEven = (values) => [values.every((num) => !(num % 2))];
 

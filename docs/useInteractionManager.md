@@ -6,7 +6,7 @@ React Native hook that waits for all interactions and animations to complete bef
 
 ```jsx
 import { Text } from 'react-native';
-import { useInteractionManager } from 'react-native-use';
+import { useInteractionManager } from 'rn-hooksy';
 
 const Demo = () => {
   const interactionsComplete = useInteractionManager();

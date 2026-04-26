@@ -7,7 +7,7 @@ A declarative interval hook. The interval can be paused by setting the delay to 
 ```jsx
 import React from 'react';
 import { Button, Text, View } from 'react-native';
-import { useInterval, useToggle } from 'react-native-use';
+import { useInterval, useToggle } from 'rn-hooksy';
 
 const Demo = () => {
   const [count, setCount] = React.useState(0);

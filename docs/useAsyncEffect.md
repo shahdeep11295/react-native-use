@@ -7,7 +7,7 @@ React hook that runs an `async` function inside an effect when dependencies chan
 ```jsx
 import React from 'react';
 import { Text } from 'react-native';
-import { useAsyncEffect } from 'react-native-use';
+import { useAsyncEffect } from 'rn-hooksy';
 
 const Demo = ({ userId }) => {
   const [user, setUser] = React.useState(null);

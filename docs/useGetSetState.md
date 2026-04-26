@@ -6,7 +6,7 @@ A mix of `useGetSet` and `useSetState`.
 
 ```jsx
 import { Button, Text, View } from 'react-native';
-import { useGetSetState } from 'react-native-use';
+import { useGetSetState } from 'rn-hooksy';
 
 const Demo = () => {
   const [get, setState] = useGetSetState({ cnt: 0 });

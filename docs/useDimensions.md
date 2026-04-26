@@ -6,7 +6,7 @@ React Native hook that tracks window and screen dimensions. Automatically re-ren
 
 ```jsx
 import { Text, View } from 'react-native';
-import { useDimensions } from 'react-native-use';
+import { useDimensions } from 'rn-hooksy';
 
 const Demo = () => {
   const { window, screen } = useDimensions();

@@ -7,7 +7,7 @@ Returns `true` if component is just mounted (on first render) and `false` otherw
 ```jsx
 import React from 'react';
 import { Button, Text, View } from 'react-native';
-import { useFirstMountState, useUpdate } from 'react-native-use';
+import { useFirstMountState, useUpdate } from 'rn-hooksy';
 
 const Demo = () => {
   const isFirstMount = useFirstMountState();

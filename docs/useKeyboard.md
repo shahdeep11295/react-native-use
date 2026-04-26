@@ -6,7 +6,7 @@ React Native hook that tracks keyboard visibility, height, and position coordina
 
 ```jsx
 import { Text, TextInput, View } from 'react-native';
-import { useKeyboard } from 'react-native-use';
+import { useKeyboard } from 'rn-hooksy';
 
 const Demo = () => {
   const { keyboardShown, keyboardHeight } = useKeyboard();

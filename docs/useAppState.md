@@ -6,7 +6,7 @@ React Native hook that tracks the current app state (`active`, `background`, or 
 
 ```jsx
 import { Text } from 'react-native';
-import { useAppState } from 'react-native-use';
+import { useAppState } from 'rn-hooksy';
 
 const Demo = () => {
   const appState = useAppState();

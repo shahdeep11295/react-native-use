@@ -6,7 +6,7 @@ React state hook that tracks a `Set`.
 
 ```jsx
 import { Button, Text, View } from 'react-native';
-import { useSet } from 'react-native-use';
+import { useSet } from 'rn-hooksy';
 
 const Demo = () => {
   const [set, { add, has, remove, toggle, reset, clear }] = useSet(

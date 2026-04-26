@@ -5,7 +5,7 @@
 ## Usage
 
 ```jsx
-import { useIsomorphicLayoutEffect } from 'react-native-use';
+import { useIsomorphicLayoutEffect } from 'rn-hooksy';
 import { Text } from 'react-native';
 
 const Demo = ({ value }) => {

@@ -1,6 +1,6 @@
 {
-  "name": "react-native-use",
-  "version": "0.1.0",
+  "name": "rn-hooksy",
+  "version": "1.0.1",
   "description": "A lightweight collection of reusable hooks for React Native to handle common functionality and enhance developer productivity.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
@@ -174,5 +174,10 @@
     "react-native-permissions": "^5.5.1",
     "react-native-safe-area-context": "^5.7.0",
     "set-harmonic-interval": "^1.0.1"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "example",
+    "lib": "lib"
   }
 }

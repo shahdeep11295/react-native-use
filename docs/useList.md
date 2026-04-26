@@ -7,7 +7,7 @@ To cause component re-render use these methods instead of direct list mutation.
 
 ```jsx
 import { Button, Text, View } from 'react-native';
-import { useList } from 'react-native-use';
+import { useList } from 'rn-hooksy';
 
 const Demo = () => {
   const [list, { set, push, updateAt, removeAt, filter, sort, clear, reset }] =

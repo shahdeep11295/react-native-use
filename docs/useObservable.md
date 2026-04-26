@@ -6,7 +6,7 @@ React state hook that tracks the latest value of an `Observable`.
 
 ```jsx
 import { Text, View } from 'react-native';
-import { useObservable } from 'react-native-use';
+import { useObservable } from 'rn-hooksy';
 
 // Example with a simple observable-like object
 const counterSubject = {

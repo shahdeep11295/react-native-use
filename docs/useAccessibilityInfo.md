@@ -6,7 +6,7 @@ React Native hook that tracks system accessibility settings such as screen reade
 
 ```jsx
 import { Text, View } from 'react-native';
-import { useAccessibilityInfo } from 'react-native-use';
+import { useAccessibilityInfo } from 'rn-hooksy';
 
 const Demo = () => {
   const {

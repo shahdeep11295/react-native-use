@@ -6,7 +6,7 @@ A React hook factory that creates globally shared state.
 
 ```jsx
 import { Button, Text, View } from 'react-native';
-import { createGlobalState } from 'react-native-use';
+import { createGlobalState } from 'rn-hooksy';
 
 const useGlobalValue = createGlobalState(0);
 

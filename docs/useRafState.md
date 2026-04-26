@@ -7,7 +7,7 @@ React state hook that only updates state in the callback of [`requestAnimationFr
 ```jsx
 import React from 'react';
 import { Text, View } from 'react-native';
-import { useRafState } from 'react-native-use';
+import { useRafState } from 'rn-hooksy';
 
 const Demo = () => {
   const [state, setState] = useRafState({

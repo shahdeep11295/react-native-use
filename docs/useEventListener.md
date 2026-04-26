@@ -7,7 +7,7 @@ React Native hook that attaches an event listener to a React Native event emitte
 ```jsx
 import React from 'react';
 import { AppState, Text } from 'react-native';
-import { useEventListener } from 'react-native-use';
+import { useEventListener } from 'rn-hooksy';
 
 const Demo = () => {
   const [appState, setAppState] = React.useState(AppState.currentState);

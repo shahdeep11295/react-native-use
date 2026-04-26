@@ -7,7 +7,7 @@ Same as [`useInterval`](./useInterval.md), but triggers effects with the same de
 ```jsx
 import React from 'react';
 import { Text } from 'react-native';
-import { useHarmonicIntervalFn } from 'react-native-use';
+import { useHarmonicIntervalFn } from 'rn-hooksy';
 
 const Demo = () => {
   const [ticks, setTicks] = React.useState(0);

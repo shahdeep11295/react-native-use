@@ -7,7 +7,7 @@ React Native hook for handling pull-to-refresh. Wraps an async function and mana
 ```jsx
 import React from 'react';
 import { FlatList, RefreshControl, Text } from 'react-native';
-import { useRefresh } from 'react-native-use';
+import { useRefresh } from 'rn-hooksy';
 
 const Demo = () => {
   const [data, setData] = React.useState(['Item 1', 'Item 2', 'Item 3']);

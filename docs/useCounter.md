@@ -6,7 +6,7 @@ React state hook that tracks a numeric value.
 
 ```jsx
 import { Button, Text, View } from 'react-native';
-import { useCounter } from 'react-native-use';
+import { useCounter } from 'rn-hooksy';
 
 const Demo = () => {
   const [min, { inc: incMin, dec: decMin }] = useCounter(1);

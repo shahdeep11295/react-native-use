@@ -6,7 +6,7 @@ React Native hook that measures the layout of a component via the `onLayout` eve
 
 ```jsx
 import { Text, View } from 'react-native';
-import { useLayout } from 'react-native-use';
+import { useLayout } from 'rn-hooksy';
 
 const Demo = () => {
   const { onLayout, width, height, x, y } = useLayout();

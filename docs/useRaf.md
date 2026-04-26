@@ -7,7 +7,7 @@ returns percentage of time elapsed.
 
 ```jsx
 import { Text } from 'react-native';
-import { useRaf } from 'react-native-use';
+import { useRaf } from 'rn-hooksy';
 
 const Demo = () => {
   const elapsed = useRaf(5000, 1000);

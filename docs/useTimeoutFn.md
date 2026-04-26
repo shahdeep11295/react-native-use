@@ -7,7 +7,7 @@ Calls a given function after a specified amount of milliseconds.
 ```jsx
 import React, { useCallback } from 'react';
 import { Button, Text, View } from 'react-native';
-import { useTimeoutFn } from 'react-native-use';
+import { useTimeoutFn } from 'rn-hooksy';
 
 const Demo = () => {
   const [state, setState] = React.useState('Not called yet');
