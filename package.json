@@ -1,6 +1,6 @@
 {
   "name": "rn-hooksy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight collection of reusable hooks for React Native to handle common functionality and enhance developer productivity.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
