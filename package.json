@@ -1,6 +1,6 @@
 {
   "name": "rn-hooksy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight collection of reusable hooks for React Native to handle common functionality and enhance developer productivity.",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
@@ -58,7 +58,8 @@
   },
   "homepage": "https://github.com/shahdeep11295/react-native-use#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^20.5.0",
